@@ -1,0 +1,10 @@
+## Interface: 11304
+## Title: vcLootPriority
+## Notes: Shows <Voodoo Cookies> loot priority on tooltips
+## Author: @project-author@
+## Version: @project-version@
+## X-Curse-Project-ID: 378871
+
+vcLootData.lua
+vcLootSearch.lua
+vcLootPriority.lua
