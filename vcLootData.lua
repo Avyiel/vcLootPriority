@@ -389,7 +389,7 @@ VCLP.LootData = {
 		["os"] = "",
 		["prio"] = "Healer",
 	}, {
-		["loot_id"] = "17106",
+		["loot_id"] = "19137",
 		["loot_name"] = "Onslaught Girdle",
 		["bis"] = "",
 		["os"] = "",
