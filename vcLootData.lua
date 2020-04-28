@@ -251,7 +251,7 @@ VCLP.LootData = {
 		["bis"] = "Warrior",
 		["os"] = "Druid",
 		["prio"] = "MT > OT",
-		["note"] = "",
+		["note"] = "Why you'd take this over Ony Tooth Pendant is beyond me",
 	}, {
 		["loot_id"] = "17069",
 		["loot_name"] = "Striker's Mark",
@@ -351,8 +351,8 @@ VCLP.LootData = {
 		["loot_id"] = "17074",
 		["loot_name"] = "Shadowstrike",
 		["bis"] = "Warrior",
-		["os"] = "Vendorstrike",
-		["prio"] = "Fury",
+		["os"] = "",
+		["prio"] = "Vendorstrike",
 		["note"] = "Should really be disenchanted",
 	},
 
@@ -450,7 +450,7 @@ VCLP.LootData = {
 		["bis"] = "Shaman",
 		["os"] = "Warrior",
 		["prio"] = "Enhancement > Fury",
-		["note"] = "",
+		["note"] = "Ret Pala weapon. Besides, who's buying Ingots anyway?",
 	}, {
 		["loot_id"] = "17063",
 		["loot_name"] = "Band of Accuria",
@@ -470,7 +470,7 @@ VCLP.LootData = {
 		["loot_name"] = "Bonereaver's Edge",
 		["bis"] = "Warrior",
 		["os"] = "",
-		["prio"] = "Fury",
+		["prio"] = "Arms > Fury",
 		["note"] = "",
 	}, {
 		["loot_id"] = "18814",
@@ -506,7 +506,7 @@ VCLP.LootData = {
 		["bis"] = "Warrior, Druid",
 		["os"] = "",
 		["prio"] = "MT > OT",
-		["note"] = "Thorns effect stack, decent for AoE tanking",
+		["note"] = "Essence of the Pure Nexus. Disenchant this crap",
 	}, {
 		["loot_id"] = "17106",
 		["loot_name"] = "Malistar's Defender",
@@ -519,7 +519,7 @@ VCLP.LootData = {
 		["loot_name"] = "Onslaught Girdle",
 		["bis"] = "Warrior",
 		["os"] = "",
-		["prio"] = "",
+		["prio"] = "Fury > Tank",
 		["note"] = "Let them fight",
 	}, {
 		["loot_id"] = "18816",
@@ -534,7 +534,7 @@ VCLP.LootData = {
 		["bis"] = "Shaman",
 		["os"] = "",
 		["prio"] = "Healer",
-		["note"] = "Essence of Pure Nexus. Disenchant this crap",
+		["note"] = "",
 	}, {
 		["loot_id"] = "17104",
 		["loot_name"] = "Spinal Reaper",
