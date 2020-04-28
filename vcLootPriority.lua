@@ -1,11 +1,22 @@
 local _, VCLP = ...
 
-local function addLine(tooltip, id)
-  local best_in_slot = VCLP.SearchBiS(id)
-  local offspec = VCLP.SearchOS(id)
-  local priority = VCLP.SearchPrio(id)
+local function search(item_id, type)
+  for index, value in next, VCLP.LootData do
+    if value["loot_id"] == item_id and value[type] ~= "" then
+      return value[type]
+    end
+  end
 
-  if best_in_slot or offspec or priority then
+  return false
+end
+
+local function addLine(tooltip, id)
+  local best_in_slot = search(id, "bis")
+  local offspec = search(id, "os")
+  local priority = search(id, "prio")
+  local note = search(id, "note")
+
+  if best_in_slot or offspec or priority or notes then
     local header = string.format("VC Loot Priority")
     tooltip:AddLine(header)
   end
@@ -23,6 +34,11 @@ local function addLine(tooltip, id)
   if priority then
     local prio = string.format("|c0000b3b3  Prio: %s", priority)
     tooltip:AddLine(prio)
+  end
+
+  if note then
+    local txt = string.format("|c00ffffff  Notes: %s", note)
+    tooltip:AddLine(txt)
   end
 
   tooltip:Show()

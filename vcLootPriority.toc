@@ -6,5 +6,4 @@
 ## X-Curse-Project-ID: 378871
 
 vcLootData.lua
-vcLootSearch.lua
 vcLootPriority.lua
