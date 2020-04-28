@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.0 (2020-04-28)
+
+### New Features
+
+* added Onyxia items
+* added extra notes to some items
+
+### Bug Fixes
+
+* hardcode author name
+  * for some reason, Curse is using the real name and not the username
+
 ## 1.0.1 (2020-04-27)
 
 ### Bug Fixes
