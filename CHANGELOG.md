@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.0 (2020-04-28)
+
+### Features
+
+* achieved 1:1 parity with the spreadsheet
+
 ## 1.1.1 (2020-04-28)
 
 ### Bug Fixes
